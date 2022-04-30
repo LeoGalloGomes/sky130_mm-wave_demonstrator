@@ -15,21 +15,33 @@ The back-end of line (BEOL), the metal and dielectric stack that forms the inter
 # Open-source RFIC design flow
 The main tools needed for a complete RFIC design flow *must* cover the following topics:
   > Schematic capture;
+  > 
   > S-parameter simulation, large-signal non-linear simulation, noise simulation;
+  > 
   > Full-wave simulation;
+  > 
   > Layout with parasitic extraction (RC minimum, RLCK ideally);
+  > 
   > DRC and LVS;
 
 The open-source environment offers some solutions for these problems. The list of softwares that were used for the design and implementation of these designs are:
   > Schematic capture: xschem;
+  > 
   > S-parameter simulation, non-linear simulation: ngspice for transient and small-signal S-parameter analysis;
+  > 
   > Full-wave simulation: openEMS (initial experiments);
+  > 
   > Layout: klayout;
+  > 
   > Parasitic extraction: magic VLSI (RC) and fastHenry (initial experiments);
+  > 
   > DRC: klayout and magic;
+  > 
   > LVS: netgen.
 
 Other free, but closed-source software that were used at some point during the design flow are listed below:
   > ASITIC for inductor design and simulation;
+  > 
   > QucsStudio for rubberband tuning and transmission line circuit design;
+  > 
   > Sonnet lite for full-wave simulations (initial experiments).
