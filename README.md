@@ -1,7 +1,7 @@
 # sky130_mm-wave_demonstrator
 The goal of this 2022 chipathon submission is to build a demonstrator chip in the 10 mm² user project area of the caravel/caravan harness to assess the feasibility of implementing mm-wave designs in a low-cost technology using a complete open-source RFIC design flow in the sky130 technology.
 
-We propose to submit a number of basic mm-wave circuits, such as voltage-controlled oscillator, power amplifier, balun, low-noise amplifier and detector, as well as some test features like inductors, (slow-wave) transmission lines and a basic TRL calibration kit. 
+We propose to submit a number of basic mm-wave circuits, such as voltage-controlled oscillator, power amplifier, balun, low-noise amplifier and detector, as well as some test features like inductors, (slow-wave) transmission lines and a basic TRL calibration kit. All at 60 GHz. 
 
 # Mm-waves into a 130 nm CMOS process
 The 130 nm node was released at the beginning of the 2000's, and is by now a legacy technology, regarded as obsolete for cutting-edge digital design. However, for analog and RF applications, this node is more than capable of delivering adequate performances, even into the 60 GHz ISM band. The maximum frequency of oscillation (Fmax) of the n-channel MOSFETs of a 130 nm process is at around 120 GHz, thus this node can be used for 5G and V-band processes!
