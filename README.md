@@ -7,7 +7,9 @@ We propose to submit a number of basic mm-wave circuits, such as voltage-control
 The 130 nm node was released at the beginning of the 2000's, and is by now a legacy technology, regarded as obsolete for cutting-edge digital design. However, for analog and RF applications, this node is more than capable of delivering adequate performances, even into the 60 GHz ISM band. The maximum frequency of oscillation (Fmax) of the n-channel MOSFETs of a 130 nm process is at around 120 GHz, thus this node can be used for 5G and V-band processes!
 The back-end of line (BEOL), the metal and dielectric stack that forms the interconnection layers of an IC, is where the RF structures are realized. The metal, thickness and height of the BEOL dictates the quality of the passive RF structures, such as transmission lines, spiral inductors and capacitors. In this regard, the sky130 process offers a flexible, 5-layer BEOL with a few interesting features, such as:
   > A local interconnection layer for high-density cells;
+  > 
   > Two intermediate layers for high-density MIM capacitors;
+  > 
   > Two thin metals for interconnection, two intermediate metals for low-loss contacts and a thicker top layer that enables good quality passive devices, etc.
 
 # Open-source RFIC design flow
